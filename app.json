@@ -1,0 +1,28 @@
+{
+  "id": "49a09b03-e378-4397-96cc-cc3d593ee7ac",
+  "name": "SD SEMINAR",
+  "publisher": "T.E.O",
+  "brief": "cool stuff",
+  "description": "This is a seminar module",
+  "version": "1.0.0.0",
+  "privacyStatement": "",
+  "EULA": "",
+  "help": "",
+  "url": "",
+  "logo": "",
+  "capabilities": [],
+  "dependencies": [],
+  "screenshots": [],
+  "platform": "13.0.0.0",
+  "application": "13.0.0.0",
+  "features": [
+    "TranslationFile"
+  ],
+  "showMyCode": true,
+  "target": "Internal",
+  "idRange": {
+    "from": 50100,
+    "to": 50199
+  },
+  "runtime": "2.0"
+}
