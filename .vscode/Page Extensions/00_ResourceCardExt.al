@@ -18,7 +18,7 @@ pageextension 50100 "CSD Resource Card Ext" extends "Resource Card"
             group("CSD Room")
             {
                 Caption='Room';
-                field("CSD Maximum Participants";"CSD Maximump Participants")
+                field("CSD Maximum Participants";"CSD Maximum Participants")
                 {
 
                 }
