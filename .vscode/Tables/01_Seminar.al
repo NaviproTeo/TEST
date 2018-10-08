@@ -53,15 +53,21 @@ table 50101 "CSD Seminar"
         field(110; "Gen. Prod. Posting Group"; Code[10])
         {
             Caption = 'Gen. Prod. Posting Group';
+            TableRelation = "Gen. Product Posting Group";
         }
         field(120; "VAT Prod. Posting Group"; Code[10])
         {
             Caption = 'VAT Prod. Posting Group';
+            TableRelation = "VAT Product Posting Group";
         }
         field(130; "No. Series"; Code[10])
         {
             Caption = 'No. Series';
+            TableRelation = "No. Series";
         }
+    }
+    keys { key(PK; "No.") { Clustered = true; } key(Key1; "Search Name") { } }
+}
     }
     keys
     {
