@@ -110,6 +110,7 @@ table 50101 "CSD Seminar"
             NoSeriesMgt.InitSeries(SeminarSetup."Seminar Nos.", xRec."No. Series", 0D, "No.", "No. Series");
         end;
     end;
+
     trigger OnModify()
     begin
         "Last Date Modified" := Today;
@@ -129,4 +130,19 @@ table 50101 "CSD Seminar"
         "Last Date Modified" := Today;
     end;
 
+    local procedure MyProcedure()
+    var
+        myInt: Integer;
+    begin
+        with Seminar do begin
+            Seminar := Rec;
+            SeminarSetup.get;
+            SeminarSetup.TestField("Seminar Nos.");
+            if NoSeriesMgt.SelectSeries(SeminarSetup."Seminar Nos.", xRec."No. Series", "No. Series") then begin
+                NoSeriesMgt.SetSeries("No.");
+                Rec := Seminar;
+                exit(true);
+            end;
+        end;
+    end;
 }
