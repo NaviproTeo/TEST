@@ -73,6 +73,7 @@ table 50101 "CSD Seminar"
                     if GenProdPostingGroup.ValidateVatProdPostingGroup(GenProdPostingGroup, "Gen. Prod. Posting Group") then
                         Validate("VAT Prod. Posting Group", GenProdPostingGroup."Def. VAT Prod. Posting Group");
                 end;
+            end;
         }
         field(120; "VAT Prod. Posting Group"; Code[10])
         {
@@ -108,7 +109,7 @@ table 50101 "CSD Seminar"
             SeminarSetup.TestField("Seminar Nos.");
             NoSeriesMgt.InitSeries(SeminarSetup."Seminar Nos.", xRec."No. Series", 0D, "No.", "No. Series");
         end;
-
+    end;
     trigger OnModify()
     begin
         "Last Date Modified" := Today;
