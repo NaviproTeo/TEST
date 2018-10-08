@@ -130,9 +130,7 @@ table 50101 "CSD Seminar"
         "Last Date Modified" := Today;
     end;
 
-    local procedure MyProcedure()
-    var
-        myInt: Integer;
+    local procedure AssistEdit(): Boolean;
     begin
         with Seminar do begin
             Seminar := Rec;
