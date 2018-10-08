@@ -10,7 +10,7 @@
             "serverInstance": "BC130",
             "authentication": "Windows",
             "breakOnError": true,
-            "schemaUpdateMode":"Recreate"
+            "schemaUpdateMode":"Synchronize"
         }
     ]
 }
