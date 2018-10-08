@@ -11,12 +11,12 @@ page 50101 "CSD Seminar Card"
             {
                 field("No."; "No.")
                 {
-                    AssistEdit = true;
-                    trigger OnAssistEdit();
-                    begin
-                        if AssistEdit then
-                            CurrPage.Update;
-                    end;
+                    //AssistEdit = true;
+                    //trigger OnAssistEdit();
+                    //begin
+                    //    if AssistEdit then
+                    //        CurrPage.Update;
+                    //end;
                 }
                 field(Name; Name)
                 {
