@@ -65,7 +65,7 @@ codeunit 50199 InstallSeminar
         SourceCode.Code := 'SEMINAR';
         if SourceCode.Insert then;
         SourceCodeSetup.get;
-        //SourceCodeSetup."CSD Seminar" := 'SEMINAR';
+        SourceCodeSetup."CSD Seminar" := 'SEMINAR';
         SourceCodeSetup.modify;
      end;
     local procedure CreateSeminar();
