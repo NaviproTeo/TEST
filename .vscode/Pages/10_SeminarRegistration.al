@@ -1,6 +1,10 @@
 page 50110 "CSD Seminar Registration"
 {
-    // CSD1.00 - 2018-10-09 - T. E. O.
+    // CSD1.00 - 2018-01-01 - D. E. Veloper
+    //   Chapter 6 - Lab 3-1
+    //     - Created new page
+    //   Chapter 7 - Lab 5-8
+    //     - Added Post Action  
 
     Caption = 'Seminar Registration';
     PageType = Document;
@@ -156,6 +160,20 @@ page 50110 "CSD Seminar Registration"
                 PromotedCategory = Process;
                 ShortcutKey = F9;
                 RunObject = codeunit "CSD Seminar-Post (Yes/No)";
+            }
+            action("&Print")
+            {
+                Caption = '&Print';
+                Image = Print;
+                Promoted = true;
+                PromotedIsBig = true;
+                PromotedCategory = Process;
+                trigger OnAction();
+                var
+                    SeminarReportSelection: Record "CSD Seminar Report Selections";
+                begin
+                    SeminarReportSelection.PrintReportSelection(SeminarReportSelection.Usage::Registration, Rec);
+                end;
             }
         }
     }
