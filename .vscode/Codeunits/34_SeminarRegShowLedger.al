@@ -1,5 +1,5 @@
 codeunit 50134 "CSD SeminarRegShowLedger"
-// CSD1.00 - 2018-01-01 - D. E. Veloper
+// CSD1.00 - 2018-10-09 - T. E. O.
 // Chapter 7 - Lab 2-10
 {
     TableNo = "CSD Seminar Register";

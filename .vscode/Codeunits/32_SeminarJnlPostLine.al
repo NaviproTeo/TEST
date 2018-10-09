@@ -1,5 +1,5 @@
 codeunit 50132 "CSD Seminar Jnl.-Post Line"
-// CSD1.00 - 2018-01-01 - D. E. Veloper
+// CSD1.00 - 2018-10-09 - T. E. O.
 // Chapter 7 - Lab 2-2
 {
     TableNo = "CSD Seminar Journal Line";
@@ -20,8 +20,7 @@ codeunit 50132 "CSD Seminar Jnl.-Post Line"
     var
         myInt: Integer;
     begin
-        with SeminarJnLine2 do
-        begin
+        with SeminarJnLine2 do begin
             SeminarJnlLine := SeminarJnLine2;
             Code();
             SeminarJnLine2 := SeminarJnlLine;
@@ -32,8 +31,7 @@ codeunit 50132 "CSD Seminar Jnl.-Post Line"
     var
         myInt: Integer;
     begin
-        with SeminarJnlLine do
-        begin
+        with SeminarJnlLine do begin
             if EmptyLine then
                 exit;
 
@@ -51,7 +49,7 @@ codeunit 50132 "CSD Seminar Jnl.-Post Line"
 
             if SeminarRegister."No." = 0 then begin
                 SeminarRegister.LOCKTable;
-                if(not SeminarRegister.FINDLAST) or(SeminarRegister."To Entry No." <> 0) then begin
+                if (not SeminarRegister.FINDLAST) or (SeminarRegister."To Entry No." <> 0) then begin
                     SeminarRegister.INIT;
                     SeminarRegister."No." := SeminarRegister."No." + 1;
                     SeminarRegister."From Entry No." := NextEntryNo;
