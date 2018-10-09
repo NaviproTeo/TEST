@@ -7,7 +7,7 @@ codeunit 50102 SeminarRegPrinted
     trigger OnRun();
     begin
         Find;
-        "No. Printed" += 1;
+        "No. Printed" += 1; 
         Modify;
         Commit;
     end;

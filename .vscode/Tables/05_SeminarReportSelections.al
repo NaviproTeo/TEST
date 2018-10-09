@@ -8,31 +8,31 @@ table 50105 "CSD Seminar Report Selections"
 
     fields
     {
-        field(1; Usage; Option)
+        field(1;Usage;Option)
         {
             Caption = 'Usage';
             OptionCaption = 'Registration';
             OptionMembers = Registration;
         }
-        field(2; Sequence; Code[10])
+        field(2;Sequence;Code[10])
         {
             Caption = 'Sequence';
             Numeric = true;
         }
-        field(3; "Report ID"; Integer)
+        field(3;"Report ID";Integer)
         {
             Caption = 'Report ID';
-            TableRelation = AllObjWithCaption."Object ID" where ("Object Type" = const (Report));
+            TableRelation = AllObjWithCaption."Object ID" where ("Object Type"=const(Report));
 
             trigger OnValidate();
             begin
                 CalcFields("Report Name");
             end;
         }
-        field(4; "Report Name"; Text[80])
+        field(4;"Report Name";Text[80])
         {
-            CalcFormula = Lookup (AllObjWithCaption."Object Caption" where ("Object Type" = const (Report),
-                                                                           "Object ID" = Field ("Report ID")));
+            CalcFormula = Lookup(AllObjWithCaption."Object Caption" where ("Object Type"=const(Report),
+                                                                           "Object ID"=Field("Report ID")));
             Caption = 'Report Name';
             FieldClass = FlowField;
         }
@@ -40,7 +40,7 @@ table 50105 "CSD Seminar Report Selections"
 
     keys
     {
-        key(Key1; Usage, Sequence)
+        key(Key1;Usage,Sequence)
         {
         }
     }
@@ -50,24 +50,23 @@ table 50105 "CSD Seminar Report Selections"
     }
 
     var
-        ReportSelection2: Record "CSD Seminar Report Selections";
+        ReportSelection2 : Record "CSD Seminar Report Selections";
 
     procedure NewRecord();
     begin
-        ReportSelection2.SetRange(Usage, Usage);
+        ReportSelection2.SetRange(Usage,Usage);
         if ReportSelection2.Find('+') and (ReportSelection2.Sequence <> '') then
-            Sequence := IncStr(ReportSelection2.Sequence)
+          Sequence := IncStr(ReportSelection2.Sequence)
         else
-            Sequence := '1';
+          Sequence := '1';
     end;
-
-    procedure PrintReportSelection(inUsage: Integer; SemRegHeader: Record "CSD Seminar Reg. Header");
+    procedure PrintReportSelection(inUsage : Integer;SemRegHeader : Record "CSD Seminar Reg. Header");
     var
-        SemReportSelection: Record "CSD Seminar Report Selections";
+        SemReportSelection : Record "CSD Seminar Report Selections";
     begin
-        SemReportSelection.SetRange(Usage, inUsage);
+        SemReportSelection.SetRange(Usage,inUsage);
         if SemReportSelection.FindFirst then
-            report.run(SemReportSelection."Report ID", true, false, SemRegHeader);
+          report.run(SemReportSelection."Report ID",true,false,SemRegHeader);
     end;
 }
 

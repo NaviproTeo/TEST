@@ -1,5 +1,5 @@
 codeunit 50132 "CSD Seminar Jnl.-Post Line"
-// CSD1.00 - 2018-10-09 - T. E. O.
+// CSD1.00 - 2018-01-01 - D. E. Veloper
 // Chapter 7 - Lab 2-2
 {
     TableNo = "CSD Seminar Journal Line";
@@ -20,7 +20,8 @@ codeunit 50132 "CSD Seminar Jnl.-Post Line"
     var
         myInt: Integer;
     begin
-        with SeminarJnLine2 do begin
+        with SeminarJnLine2 do
+        begin
             SeminarJnlLine := SeminarJnLine2;
             Code();
             SeminarJnLine2 := SeminarJnlLine;
@@ -31,7 +32,8 @@ codeunit 50132 "CSD Seminar Jnl.-Post Line"
     var
         myInt: Integer;
     begin
-        with SeminarJnlLine do begin
+        with SeminarJnlLine do
+        begin
             if EmptyLine then
                 exit;
 
@@ -49,7 +51,7 @@ codeunit 50132 "CSD Seminar Jnl.-Post Line"
 
             if SeminarRegister."No." = 0 then begin
                 SeminarRegister.LOCKTable;
-                if (not SeminarRegister.FINDLAST) or (SeminarRegister."To Entry No." <> 0) then begin
+                if(not SeminarRegister.FINDLAST) or(SeminarRegister."To Entry No." <> 0) then begin
                     SeminarRegister.INIT;
                     SeminarRegister."No." := SeminarRegister."No." + 1;
                     SeminarRegister."From Entry No." := NextEntryNo;
@@ -73,13 +75,13 @@ codeunit 50132 "CSD Seminar Jnl.-Post Line"
             SeminarLedgerEntry.Description := Description;
             SeminarLedgerEntry."Bill-to Customer No." := "Bill-to Customer No.";
             SeminarLedgerEntry."Charge Type" := "Charge Type";
-            SeminarLedgerEntry."Type" := Type;
-            SeminarLedgerEntry."Quantity" := Quantity;
+            SeminarLedgerEntry.Type := Type;
+            SeminarLedgerEntry.Quantity := Quantity;
             SeminarLedgerEntry."Unit Price" := "Unit Price";
             SeminarLedgerEntry."Total Price" := "Total Price";
             SeminarLedgerEntry."Participant Contact No." := "Participant Contact No.";
             SeminarLedgerEntry."Participant Name" := "Participant Name";
-            SeminarLedgerEntry."Chargeable" := Chargeable;
+            SeminarLedgerEntry.Chargeable := Chargeable;
             SeminarLedgerEntry."Room Resource No." := "Room Resource No.";
             SeminarLedgerEntry."Instructor Resource No." := "Instructor Resource No.";
             SeminarLedgerEntry."Starting Date" := "Starting Date";
@@ -93,7 +95,7 @@ codeunit 50132 "CSD Seminar Jnl.-Post Line"
             SeminarLedgerEntry."Posting No. Series" := "Posting No. Series";
             SeminarLedgerEntry."User ID" := USERID;
             SeminarLedgerEntry."Entry No." := NextEntryNo;
-            SeminarLedgerEntry.INSERT;
+            SeminarLedgerEntry.insert;
             NextEntryNo := NextEntryNo + 1;
         end;
     end;
