@@ -73,13 +73,13 @@ codeunit 50132 "CSD Seminar Jnl.-Post Line"
             SeminarLedgerEntry.Description := Description;
             SeminarLedgerEntry."Bill-to Customer No." := "Bill-to Customer No.";
             SeminarLedgerEntry."Charge Type" := "Charge Type";
-            SeminarLedgerEntry.Type := Type;
-            SeminarLedgerEntry.Quantity := Quantity;
+            SeminarLedgerEntry."Type" := Type;
+            SeminarLedgerEntry."Quantity" := Quantity;
             SeminarLedgerEntry."Unit Price" := "Unit Price";
             SeminarLedgerEntry."Total Price" := "Total Price";
             SeminarLedgerEntry."Participant Contact No." := "Participant Contact No.";
             SeminarLedgerEntry."Participant Name" := "Participant Name";
-            SeminarLedgerEntry.Chargeable := Chargeable;
+            SeminarLedgerEntry."Chargeable" := Chargeable;
             SeminarLedgerEntry."Room Resource No." := "Room Resource No.";
             SeminarLedgerEntry."Instructor Resource No." := "Instructor Resource No.";
             SeminarLedgerEntry."Starting Date" := "Starting Date";
@@ -93,7 +93,7 @@ codeunit 50132 "CSD Seminar Jnl.-Post Line"
             SeminarLedgerEntry."Posting No. Series" := "Posting No. Series";
             SeminarLedgerEntry."User ID" := USERID;
             SeminarLedgerEntry."Entry No." := NextEntryNo;
-            SeminarLedgerEntry.insert;
+            SeminarLedgerEntry.INSERT;
             NextEntryNo := NextEntryNo + 1;
         end;
     end;

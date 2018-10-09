@@ -1,7 +1,7 @@
 page 50110 "CSD Seminar Registration"
 {
     // CSD1.00 - 2018-10-09 - T. E. O.
-  
+
     Caption = 'Seminar Registration';
     PageType = Document;
     SourceTable = "CSD Seminar Reg. Header";
