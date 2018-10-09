@@ -19,10 +19,10 @@
             <TablixBody>
               <TablixColumns>
                 <TablixColumn>
-                  <Width>2.08333in</Width>
+                  <Width>2.36582in</Width>
                 </TablixColumn>
                 <TablixColumn>
-                  <Width>1.63542in</Width>
+                  <Width>1.98959in</Width>
                 </TablixColumn>
                 <TablixColumn>
                   <Width>2.10417in</Width>
@@ -51,7 +51,6 @@
                           <rd:DefaultName>Textbox11</rd:DefaultName>
                           <Style>
                             <Border>
-                              <Color>Black</Color>
                               <Style>Solid</Style>
                             </Border>
                             <PaddingLeft>2pt</PaddingLeft>
@@ -81,7 +80,6 @@
                           <rd:DefaultName>No_</rd:DefaultName>
                           <Style>
                             <Border>
-                              <Color>Black</Color>
                               <Style>Solid</Style>
                             </Border>
                             <PaddingLeft>2pt</PaddingLeft>
@@ -111,7 +109,6 @@
                           <rd:DefaultName>Textbox13</rd:DefaultName>
                           <Style>
                             <Border>
-                              <Color>Black</Color>
                               <Style>Solid</Style>
                             </Border>
                             <PaddingLeft>2pt</PaddingLeft>
@@ -146,7 +143,6 @@
                           <rd:DefaultName>Textbox14</rd:DefaultName>
                           <Style>
                             <Border>
-                              <Color>Black</Color>
                               <Style>Solid</Style>
                             </Border>
                             <PaddingLeft>2pt</PaddingLeft>
@@ -176,7 +172,6 @@
                           <rd:DefaultName>Seminar_No_</rd:DefaultName>
                           <Style>
                             <Border>
-                              <Color>Black</Color>
                               <Style>Solid</Style>
                             </Border>
                             <PaddingLeft>2pt</PaddingLeft>
@@ -206,7 +201,6 @@
                           <rd:DefaultName>Textbox16</rd:DefaultName>
                           <Style>
                             <Border>
-                              <Color>Black</Color>
                               <Style>Solid</Style>
                             </Border>
                             <PaddingLeft>2pt</PaddingLeft>
@@ -241,7 +235,6 @@
                           <rd:DefaultName>Textbox17</rd:DefaultName>
                           <Style>
                             <Border>
-                              <Color>Black</Color>
                               <Style>Solid</Style>
                             </Border>
                             <PaddingLeft>2pt</PaddingLeft>
@@ -271,7 +264,6 @@
                           <rd:DefaultName>Seminar_Name</rd:DefaultName>
                           <Style>
                             <Border>
-                              <Color>Black</Color>
                               <Style>Solid</Style>
                             </Border>
                             <PaddingLeft>2pt</PaddingLeft>
@@ -301,7 +293,6 @@
                           <rd:DefaultName>Textbox19</rd:DefaultName>
                           <Style>
                             <Border>
-                              <Color>Black</Color>
                               <Style>Solid</Style>
                             </Border>
                             <PaddingLeft>2pt</PaddingLeft>
@@ -336,7 +327,6 @@
                           <rd:DefaultName>Textbox20</rd:DefaultName>
                           <Style>
                             <Border>
-                              <Color>Black</Color>
                               <Style>Solid</Style>
                             </Border>
                             <PaddingLeft>2pt</PaddingLeft>
@@ -366,7 +356,6 @@
                           <rd:DefaultName>Starting_Date</rd:DefaultName>
                           <Style>
                             <Border>
-                              <Color>Black</Color>
                               <Style>Solid</Style>
                             </Border>
                             <PaddingLeft>2pt</PaddingLeft>
@@ -396,7 +385,6 @@
                           <rd:DefaultName>Textbox22</rd:DefaultName>
                           <Style>
                             <Border>
-                              <Color>Black</Color>
                               <Style>Solid</Style>
                             </Border>
                             <PaddingLeft>2pt</PaddingLeft>
@@ -431,7 +419,6 @@
                           <rd:DefaultName>Textbox23</rd:DefaultName>
                           <Style>
                             <Border>
-                              <Color>Black</Color>
                               <Style>Solid</Style>
                             </Border>
                             <PaddingLeft>2pt</PaddingLeft>
@@ -461,7 +448,6 @@
                           <rd:DefaultName>Duration</rd:DefaultName>
                           <Style>
                             <Border>
-                              <Color>Black</Color>
                               <Style>Solid</Style>
                             </Border>
                             <PaddingLeft>2pt</PaddingLeft>
@@ -491,7 +477,6 @@
                           <rd:DefaultName>Textbox25</rd:DefaultName>
                           <Style>
                             <Border>
-                              <Color>Black</Color>
                               <Style>Solid</Style>
                             </Border>
                             <PaddingLeft>2pt</PaddingLeft>
@@ -526,7 +511,6 @@
                           <rd:DefaultName>Textbox29</rd:DefaultName>
                           <Style>
                             <Border>
-                              <Color>Black</Color>
                               <Style>Solid</Style>
                             </Border>
                             <PaddingLeft>2pt</PaddingLeft>
@@ -556,7 +540,6 @@
                           <rd:DefaultName>Instructor_Name</rd:DefaultName>
                           <Style>
                             <Border>
-                              <Color>Black</Color>
                               <Style>Solid</Style>
                             </Border>
                             <PaddingLeft>2pt</PaddingLeft>
@@ -586,7 +569,6 @@
                           <rd:DefaultName>Textbox31</rd:DefaultName>
                           <Style>
                             <Border>
-                              <Color>Black</Color>
                               <Style>Solid</Style>
                             </Border>
                             <PaddingLeft>2pt</PaddingLeft>
@@ -621,7 +603,6 @@
                           <rd:DefaultName>Textbox32</rd:DefaultName>
                           <Style>
                             <Border>
-                              <Color>Black</Color>
                               <Style>Solid</Style>
                             </Border>
                             <PaddingLeft>2pt</PaddingLeft>
@@ -651,7 +632,6 @@
                           <rd:DefaultName>Room_Name</rd:DefaultName>
                           <Style>
                             <Border>
-                              <Color>Black</Color>
                               <Style>Solid</Style>
                             </Border>
                             <PaddingLeft>2pt</PaddingLeft>
@@ -681,7 +661,6 @@
                           <rd:DefaultName>Textbox34</rd:DefaultName>
                           <Style>
                             <Border>
-                              <Color>Black</Color>
                               <Style>Solid</Style>
                             </Border>
                             <PaddingLeft>2pt</PaddingLeft>
@@ -719,7 +698,6 @@
                           <rd:DefaultName>Textbox7</rd:DefaultName>
                           <Style>
                             <Border>
-                              <Color>Black</Color>
                               <Style>Solid</Style>
                             </Border>
                             <PaddingLeft>2pt</PaddingLeft>
@@ -752,7 +730,6 @@
                           <rd:DefaultName>Textbox3</rd:DefaultName>
                           <Style>
                             <Border>
-                              <Color>Black</Color>
                               <Style>Solid</Style>
                             </Border>
                             <PaddingLeft>2pt</PaddingLeft>
@@ -785,7 +762,6 @@
                           <rd:DefaultName>Textbox5</rd:DefaultName>
                           <Style>
                             <Border>
-                              <Color>Black</Color>
                               <Style>Solid</Style>
                             </Border>
                             <PaddingLeft>2pt</PaddingLeft>
@@ -820,7 +796,6 @@
                           <rd:DefaultName>Bill_to_Customer_No_</rd:DefaultName>
                           <Style>
                             <Border>
-                              <Color>Black</Color>
                               <Style>Solid</Style>
                             </Border>
                             <PaddingLeft>2pt</PaddingLeft>
@@ -850,7 +825,6 @@
                           <rd:DefaultName>Participant_Contact_No_</rd:DefaultName>
                           <Style>
                             <Border>
-                              <Color>Black</Color>
                               <Style>Solid</Style>
                             </Border>
                             <PaddingLeft>2pt</PaddingLeft>
@@ -880,7 +854,6 @@
                           <rd:DefaultName>Participant_Name</rd:DefaultName>
                           <Style>
                             <Border>
-                              <Color>Black</Color>
                               <Style>Solid</Style>
                             </Border>
                             <PaddingLeft>2pt</PaddingLeft>
@@ -957,10 +930,10 @@
                 </FilterValues>
               </Filter>
             </Filters>
-            <Top>0.03in</Top>
-            <Left>0.04042in</Left>
+            <Top>0.17709in</Top>
+            <Left>0.935in</Left>
             <Height>2.25in</Height>
-            <Width>5.82292in</Width>
+            <Width>6.45958in</Width>
             <Style>
               <Border>
                 <Style>None</Style>
@@ -971,10 +944,10 @@
         <Height>2.53in</Height>
         <Style />
       </Body>
-      <Width>6.5in</Width>
+      <Width>7.7175in</Width>
       <Page>
         <PageHeader>
-          <Height>1in</Height>
+          <Height>1.28125in</Height>
           <PrintOnFirstPage>true</PrintOnFirstPage>
           <PrintOnLastPage>true</PrintOnLastPage>
           <ReportItems>
@@ -987,8 +960,8 @@
                     <TextRun>
                       <Value>=Parameters!SeminarRegistrationHeaderCap.Value</Value>
                       <Style>
+                        <FontSize>16pt</FontSize>
                         <FontWeight>Bold</FontWeight>
-                        <Color>Black</Color>
                       </Style>
                     </TextRun>
                   </TextRuns>
@@ -996,10 +969,10 @@
                 </Paragraph>
               </Paragraphs>
               <rd:DefaultName>SeminarRegistrationHeaderCap</rd:DefaultName>
-              <Top>0.0925in</Top>
-              <Left>0.19667in</Left>
-              <Height>0.25in</Height>
-              <Width>1.92708in</Width>
+              <Top>0.13417in</Top>
+              <Left>0.905in</Left>
+              <Height>0.43472in</Height>
+              <Width>3.84499in</Width>
               <Style>
                 <Border>
                   <Style>None</Style>
@@ -1025,8 +998,8 @@
                 </Paragraph>
               </Paragraphs>
               <rd:DefaultName>Company_Name</rd:DefaultName>
-              <Top>0.58208in</Top>
-              <Left>0.24875in</Left>
+              <Top>0.58278in</Top>
+              <Left>0.905in</Left>
               <Height>0.25in</Height>
               <Width>1.875in</Width>
               <ZIndex>1</ZIndex>
@@ -1049,18 +1022,21 @@
                     <TextRun>
                       <Value>=Globals!ExecutionTime</Value>
                       <Style>
+                        <FontStyle>Italic</FontStyle>
                         <Format>D</Format>
                       </Style>
                     </TextRun>
                   </TextRuns>
-                  <Style />
+                  <Style>
+                    <TextAlign>Right</TextAlign>
+                  </Style>
                 </Paragraph>
               </Paragraphs>
               <rd:DefaultName>ExecutionTime</rd:DefaultName>
-              <Top>0.06819in</Top>
-              <Left>4.89458in</Left>
+              <Top>0.13417in</Top>
+              <Left>4.96666in</Left>
               <Height>0.25in</Height>
-              <Width>1.41667in</Width>
+              <Width>2.41667in</Width>
               <ZIndex>2</ZIndex>
               <Style>
                 <Border>
@@ -1080,7 +1056,9 @@
                   <TextRuns>
                     <TextRun>
                       <Value>=Globals!PageNumber &amp; "of" &amp; Globals!TotalPages</Value>
-                      <Style />
+                      <Style>
+                        <FontStyle>Italic</FontStyle>
+                      </Style>
                     </TextRun>
                   </TextRuns>
                   <Style>
@@ -1089,8 +1067,8 @@
                 </Paragraph>
               </Paragraphs>
               <rd:DefaultName>PageNumber</rd:DefaultName>
-              <Top>0.41889in</Top>
-              <Left>4.91542in</Left>
+              <Top>0.38417in</Top>
+              <Left>5.99875in</Left>
               <Height>0.25in</Height>
               <Width>1.39583in</Width>
               <ZIndex>3</ZIndex>
@@ -1112,15 +1090,19 @@
                   <TextRuns>
                     <TextRun>
                       <Value>=User!UserID</Value>
-                      <Style />
+                      <Style>
+                        <FontStyle>Italic</FontStyle>
+                      </Style>
                     </TextRun>
                   </TextRuns>
-                  <Style />
+                  <Style>
+                    <TextAlign>Right</TextAlign>
+                  </Style>
                 </Paragraph>
               </Paragraphs>
               <rd:DefaultName>UserID</rd:DefaultName>
-              <Top>0.73833in</Top>
-              <Left>4.91542in</Left>
+              <Top>0.66195in</Top>
+              <Left>5.9875in</Left>
               <Height>0.25in</Height>
               <Width>1.39583in</Width>
               <ZIndex>4</ZIndex>
